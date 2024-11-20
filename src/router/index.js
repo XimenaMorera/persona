@@ -13,6 +13,11 @@ const routes = [
     component: Comunas
   },
   {
+    path: '/departamentos',
+    name: 'Departamentos',
+    component: Comunas
+  },
+  {
     path: '/about',
     name: 'about',
     // route level code-splitting
