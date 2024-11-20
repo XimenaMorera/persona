@@ -13,6 +13,16 @@ const routes = [
     component: Comunas
   },
   {
+    path: '/editar-comuna/:id',
+    name: 'EditarComuna',
+    component: EditarComuna
+  },
+  {
+    path: '/add-comuna/',
+    name: 'NewComuna',
+    component: NewComuna
+  },
+  {
     path: '/departamentos',
     name: 'Departamentos',
     component: Comunas
