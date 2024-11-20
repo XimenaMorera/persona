@@ -23,10 +23,36 @@ const routes = [
     component: NewComuna
   },
   {
+    path: '/municipios',
+    name: 'Municipios',
+    component: Municipios
+  },
+  {
+    path: '/municipios/nuevo',
+    name: 'NuevoMunicipio',
+    component: NewMunicipio,
+  },
+  {
+    path: '/municipios/editar/:id',
+    name: 'EditarMunicipio',
+    component: EditarMunicipio,
+  },
+  {
     path: '/departamentos',
     name: 'Departamentos',
-    component: Comunas
+    component: Departamentos
   },
+  {
+    path: '/departamentos/nuevo',
+    name: 'NuevoDepartamento',
+    component: NewDepartamento,
+  },
+  {
+    path: '/departamentos/editar/:id',
+    name: 'EditarDepartamento',
+    component: EditarDepartamento,
+  },
+
   {
     path: '/about',
     name: 'about',
